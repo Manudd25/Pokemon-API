@@ -79,3 +79,9 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+.error-div {
+    position: relative; 
+    bottom: 35rem;
+    color: red;
+}
