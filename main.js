@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.error("Error:", error.message); // log the error 
                     const errorDiv = document.createElement("div");
                     errorDiv.textContent = error.message;
+                    errorDiv.className = "error-div";
                     document.body.appendChild(errorDiv);
 
                 })
